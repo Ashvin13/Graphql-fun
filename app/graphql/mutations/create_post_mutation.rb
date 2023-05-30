@@ -1,5 +1,6 @@
 module Mutations
   class CreatePostMutation < BaseMutation
+    description "Create a new Post"
     # TODO: define return fields
     field :post, Types::PostType, null: false
 

@@ -1,5 +1,6 @@
 module Mutations
   class CreateAuthorMutation < BaseMutation
+    description "Create a new Author"
     # TODO: define return fields
     field :author, Types::AuthorType, null: false
 
